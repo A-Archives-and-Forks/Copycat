@@ -2550,10 +2550,10 @@ extra-compatible@^0.2.0:
     "@blackglory/prelude" "^0.3.0"
     iterable-operator "^4.0.2"
 
-extra-dom@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/extra-dom/-/extra-dom-0.7.2.tgz#5e910d5ea928cb4a7988f2a595d5726254933c46"
-  integrity sha512-Itf7GI2XOk7ufY6OdNrArcMxNbLDFP/vcY8bw9zERhLUJqC3flSOxFFIUPTh8gBXyELCG2okvVHy9do0WbF8ow==
+extra-dom@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/extra-dom/-/extra-dom-0.7.3.tgz#aef613cc1c6943d8bc0406a3f9aaca9dfc9074e5"
+  integrity sha512-A//svkS2Hu7x3y0i5bfT3/Z4VltR+BVg3M6DkskhsSSlkVnAUVmGE6VHkZHzxhyAP6WOF5vfAWQSr2QHZ/kf/A==
   dependencies:
     "@blackglory/prelude" "^0.4.0"
     iterable-operator "^5.1.0"
@@ -2740,12 +2740,13 @@ extra-react-store@^0.1.9:
     extra-react-hooks "^0.6.9"
     extra-utils "^5.4.0"
 
-extra-semver@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/extra-semver/-/extra-semver-0.2.2.tgz#0b0165a908d60b40d55a7f74782fb668b9781cf2"
-  integrity sha512-KO+5E5xPMBdz+TC11NFpu6/2fBinN3cRxuu7QOvWGCxkSdL9PIoibHRTOZg7RWmhn/QAUrypcIm+VEilMvDIEg==
+extra-semver@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/extra-semver/-/extra-semver-0.2.3.tgz#48832a888a6aa51da70ce8aab37812ce330cafe9"
+  integrity sha512-F4T3l68XyV+UCvSRSSbSrqzo0g6szi/a6USdYOh0SlSeSML5QHOl2gZUko50nbNIYV9xiZLX6yhwp/sxp2AHVw==
   dependencies:
     "@blackglory/errors" "^2.3.0"
+    justypes "^4.4.1"
     semver "^7.3.8"
 
 extra-tags@^0.4.2:
@@ -4035,7 +4036,7 @@ justypes@^3.0.0:
   resolved "https://registry.yarnpkg.com/justypes/-/justypes-3.1.2.tgz#f4cbdeeab5cca7c5e609f4db30480381961bbf99"
   integrity sha512-XPx3j+Og45DhqXqROKgmUzZ7DMBKL7xQbAfwTjouXVYUY72ydc1BEpO2ygIj1K674UPmSq8YQpkoq/B7RrtuSA==
 
-justypes@^4.2.0, justypes@^4.2.1, justypes@^4.3.0:
+justypes@^4.2.0, justypes@^4.2.1, justypes@^4.3.0, justypes@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/justypes/-/justypes-4.4.1.tgz#b0abfc67457e349502a18e6a18a7535b0790539e"
   integrity sha512-FtAULt8THXBX6WvEa0BRdugF+htWc/A0U69gyenZ95IOfCaKkvN6sMeaVP8T8G69UEJS1tceFvJ9dGLikbg6Dw==
@@ -6577,10 +6578,10 @@ urijs@^1.19.11:
   resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.11.tgz#204b0d6b605ae80bea54bea39280cdb7c9f923cc"
   integrity sha512-HXgFDgDommxn5/bIv0cnQZsPhHDA90NPHD6+c/v21U5+Sx5hoP8+dP9IZXBU1gIfvdRfhG8cel9QNPeionfcCQ==
 
-url-operator@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/url-operator/-/url-operator-0.3.1.tgz#5e7f36529edbad2e11f9e0975e377233c15d855d"
-  integrity sha512-Tyeu8JCmkE8YPKTuu9cP+dkphoMZcM0jJY8TOXx8dkOre6JLBdYKR6bn8xylSSbeHOGt7gX9trmDpIiqSazirA==
+url-operator@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/url-operator/-/url-operator-0.3.2.tgz#d3f2116d46b0ef856cd0a81f4709e4579da85b6f"
+  integrity sha512-ZuSeOInpP0QRAzBs8Sk6nZ6hADtqAVsD85oUN4/8UjuXtXBm/lN3T7jhAtqFI1UhT1upUfpSF29s5LogkbOmCQ==
   dependencies:
     "@blackglory/prelude" "^0.3.1"
 

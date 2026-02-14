@@ -68,12 +68,12 @@
     "delight-rpc": "^6.1.2",
     "dompurify": "^3.0.6",
     "extra-blob": "^0.2.1",
-    "extra-dom": "^0.7.2",
+    "extra-dom": "^0.7.3",
     "extra-promise": "^7.0.1",
     "extra-proxy": "^0.4.1",
     "extra-react-hooks": "^0.6.5",
     "extra-react-store": "^0.1.9",
-    "extra-semver": "^0.2.2",
+    "extra-semver": "^0.2.3",
     "extra-utils": "^5.20.0",
     "extra-webextension": "^0.4.0",
     "html2bbcode": "^1.2.6",
@@ -89,6 +89,6 @@
     "remark-stringify": "^11.0.0",
     "unified": "^11.0.4",
     "urijs": "^1.19.11",
-    "url-operator": "^0.3.1"
+    "url-operator": "^0.3.2"
   }
 }
