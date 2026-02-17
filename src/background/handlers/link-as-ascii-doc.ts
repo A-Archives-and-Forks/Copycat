@@ -4,6 +4,7 @@ import { getConfig } from '@background/storage.js'
 import { CommandHandler } from './types.js'
 import { createAsciiDocLink } from '@utils/create-ascii-doc-link.js'
 import { getActiveElementTextContent } from './utils.js'
+import { isntUndefined } from 'extra-utils'
 
 export const commandLinkAsAsciiDoc: CommandHandler = async (info, tab) => {
   if (info.linkUrl) {
@@ -14,7 +15,7 @@ export const commandLinkAsAsciiDoc: CommandHandler = async (info, tab) => {
     , config.url
     )
 
-    if (tab.id) {
+    if (isntUndefined(tab.id)) {
       return plainText(
         createAsciiDocLink(
           url

@@ -4,6 +4,7 @@ import { createPlainTextLink } from '@utils/create-plain-text-link.js'
 import { formatURL } from '@utils/format-url.js'
 import { getConfig } from '@background/storage.js'
 import { getActiveElementTextContent } from './utils.js'
+import { isntUndefined } from 'extra-utils'
 
 export const commandLinkAsPlainText: CommandHandler = async (info, tab) => {
   if (info.linkUrl) {
@@ -14,7 +15,7 @@ export const commandLinkAsPlainText: CommandHandler = async (info, tab) => {
     , config.url
     )
 
-    if (tab.id) {
+    if (isntUndefined(tab.id)) {
       return plainText(
         createPlainTextLink(
           url

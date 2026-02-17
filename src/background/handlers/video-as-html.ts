@@ -5,7 +5,6 @@ import { formatURL } from '@utils/format-url.js'
 import { createHTMLVideo } from '@utils/create-html-video.js'
 
 export const commandVideoAsHTML: CommandHandler = async (info, tab) => {
-  console.log(info, tab)
   if (info.mediaType === 'video' && info.srcUrl) {
     const config = await getConfig()
     const url = formatURL(
